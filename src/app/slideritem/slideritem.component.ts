@@ -1,3 +1,4 @@
+// this guy is doing nothing
 import { Component, Input } from '@angular/core';
 
 @Component({

@@ -1,3 +1,5 @@
+/* this guy is not doing anything */
+
 .item-container{
   border: 1em;
   background: #fff;
@@ -8,7 +10,6 @@
 .flex{
   display: flex;
   align-items: center;
-  border: 2px solid red;
   margin: auto 0;
   padding: 0;
   width: 100%;
