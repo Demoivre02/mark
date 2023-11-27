@@ -11,9 +11,9 @@
 }
 
 .wrapper {
-  gap: 30px;
+  gap: 50px;
   display: flex;
-  width: 280%;
+  width: 270%;
   /* overflow: hidden; */
 }
 
@@ -21,8 +21,19 @@
   flex: 0 0 33.33%;
   text-align: center;
   padding: 20px;
-  width: 150%;
+  width: 120%;
   background: #fff;
+  filter: blur(5px);
+  transition: filter 0.5s ease;
+}
+
+.item-container:focus-within,
+.item-container:hover {
+  filter: none;
+}
+
+.item-container:first-child{
+  filter: none;
 }
 
 .flex {
