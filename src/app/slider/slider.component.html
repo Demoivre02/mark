@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="black">
+    <div #slider class="fluid">
+      <div  class="wrapper">
+        <div  class="item-container">
+          <div class="flex">
+            <app-image src="/assets/images/remita1.png"></app-image>
+            <app-textbody></app-textbody>
+          </div>
+        </div>
+
+        <div  class="item-container">
+          <div class="flex">
+            <app-image src="/assets/images/remita2.png"></app-image>
+            <app-textbody></app-textbody>
+          </div>
+        </div>
+
+        <div  class="item-container">
+          <div class="flex">
+            <app-image src="/assets/images/remita3.png"></app-image>
+            <app-textbody></app-textbody>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pagination">
+    <div *ngFor="let i of [0, 1, 2]" (click)="showItem(i)" [class.active]="currentIndex === i"></div>
+  </div>
+</div>

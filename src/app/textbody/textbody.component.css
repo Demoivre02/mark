@@ -1,0 +1,14 @@
+.container{
+  max-width: 370px;
+}
+
+.container p{
+  padding: 1.5em;
+  font-size: .86rem;
+  line-height: 20px;
+  margin: 0;
+}
+
+h2{
+  padding-inline: 1em;
+}

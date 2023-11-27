@@ -1,0 +1,58 @@
+.container {
+  background: aqua;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.fluid {
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.wrapper {
+  gap: 30px;
+  display: flex;
+  width: 280%;
+  /* overflow: hidden; */
+}
+
+.item-container {
+  flex: 0 0 33.33%;
+  text-align: center;
+  padding: 20px;
+  width: 150%;
+  background: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination div {
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination div.active {
+  background-color: #333;
+}
+
+.black {
+  overflow: hidden;
+  max-width: 1000px;
+  margin: auto;
+}
