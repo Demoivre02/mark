@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-slideritem',
   templateUrl: './slideritem.component.html',
-  styleUrls: ['./slideritem.component.css']
+  styleUrls: ['./slideritem.component.scss']
 })
 export class SlideritemComponent {
 
